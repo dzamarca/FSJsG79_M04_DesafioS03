@@ -5,14 +5,16 @@ import Footer from './components/Footer'
 import Home from './components/Home/Home'
 import LoginPage from './components/Login/LoginPage';
 import RegistrerPages from './components/Login/RegistrerPages';
+import { Cart } from './components/Cart/Cart';
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
       {/* <RegistrerPages/> */}
       {/* <LoginPage/> */}
+      <Cart/>
       <Footer/>
     </>
   )
